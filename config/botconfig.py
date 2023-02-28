@@ -16,7 +16,7 @@ cat_gif = 'https://api.thecatapi.com/v1/images/search?mime_types=gif'
 
 async def set_default_commands(dp):
     await dp.bot.set_my_commands([
-        types.BotCommand("cat", "Grab a cat!")
+        types.BotCommand("start", "Grab a cat!")
     ])
 
 
